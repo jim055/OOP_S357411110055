@@ -6,8 +6,8 @@ public class HelloWorid {
     public static void main(String[] args) {
         System.out.print("Hello World,I'am Jim");
         System.out.print("Puriwat Lertkrai");
-        System.out.print("Information System");
-        System.out.print("MT: RWUTSV");
+        System.out.print("Information System,MT: RWUTSV");
+
 
 
     }//main
