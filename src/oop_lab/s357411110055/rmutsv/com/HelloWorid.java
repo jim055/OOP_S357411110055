@@ -7,7 +7,7 @@ public class HelloWorid {
         System.out.print("Hello World,I'am Jim");
         System.out.print("Puriwat Lertkrai");
         System.out.print("Information System");
-        System.out.print("Hello World,I'am SAM");
+        System.out.print("MT: RWUTSV");
 
 
     }//main
