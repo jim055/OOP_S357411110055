@@ -4,9 +4,9 @@ public class HelloWorid {
 
     // create main_method
     public static void main(String[] args) {
-        System.out.print("Hello World,I'am Jim");
-        System.out.print("Puriwat Lertkrai");
-        System.out.print("Information System,MT: RWUTSV");
+        System.out.print("Hello World,I'am Jim055");
+        System.out.print("Thasawan Sungngan");
+        System.out.print("Information System,MT.RMUTSV");
 
 
 
