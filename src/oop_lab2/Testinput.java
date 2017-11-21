@@ -25,7 +25,7 @@ public class Testinput {
         System.out.println("You came form "+city);
 
 
-
+        System.out.println("You came form "+city);
     }//main
 
 
