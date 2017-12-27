@@ -11,12 +11,12 @@ public class myArrayList {
         list.add("MEAN");
         list.add("B");
         System.out.println(list);
-        list.add(index: 2, element: 2017);
+        list.add(2);
         System.out.println(list);
-        list.remove(index: 1);
+        list.remove(1);
         System.out.println(list);
         System.out.println(list.size());
-        list.remove(o: "Girl");
+        list.remove("Girl");
         System.out.println(list);
         System.out.println(list.get(1));
         System.out.println(list.indexOf(2017));
