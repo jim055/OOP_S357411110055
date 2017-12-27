@@ -6,8 +6,8 @@ public class TestWhileLoop {
 //      while
         int i = 1;
         while (i<=10){
-            System.out.print(i+"Hello
-            i++;
+            System.out.print(i+"Hello i" ++);
+
         }//while
 //      do-while
             int j=1;

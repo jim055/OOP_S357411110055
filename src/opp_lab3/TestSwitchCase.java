@@ -1,4 +1,7 @@
 package opp_lab3;
+
+import java.io.BufferedReader;
+
 public class TestSwitchCase {
     public static void main (String[] args){
 //      switch-case
@@ -6,7 +9,7 @@ public class TestSwitchCase {
                     new TnputStreamReader(System.in));
             int input;
             System.out.print("Plese enter number (1-3): ");
-            input = Integer.parseInt(reader.readLine())ว
+            input = Integer.parseInt(reader.readLine());
             switch (input)   {
                 case 1: System.out.printIn("Your entered 1.");break;
                 case 2: System.out.printIn("Your entered 2.");break;
@@ -16,13 +19,6 @@ public class TestSwitchCase {
 
 
             } //switch
-
-
-
-
-
-
-
 
 
 
