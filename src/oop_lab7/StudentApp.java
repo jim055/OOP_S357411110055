@@ -45,7 +45,7 @@ public class StudentApp {
     private static Student inputData(Student s ) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your student data: ");
-        System.out.print("Name");
+        System.out.print("Name: ");
         s.setName(scanner.nextLine());
         System.out.print("ID: ");
         s.setId(scanner.nextLine());
