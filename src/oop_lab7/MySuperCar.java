@@ -4,14 +4,11 @@ import java.util.Scanner;
 
 public class MySuperCar {
     public static void main (String[] args){
-        //create Objects as SuperCar
-        SuperCar SuperCar1 = new SuperCar();
 
-        SuperCar1.setCarbrand("ee");
-        SuperCar1.setCarcolor("gray");
-        SuperCar1.setCarenginesize("");
-        SuperCar1.setCountryoforigin("");
-        SuperCar1.setMaxspeed("200");
+
+        SuperCar superCar1 = new SuperCar();
+        superCar1 = inputData(superCar1);
+        System.out.print(superCar1.toString());
 
 
 
@@ -36,14 +33,6 @@ public class MySuperCar {
 
         return s;
 
-
-
-
-
-
     }
-
-
-
 
 }//class
