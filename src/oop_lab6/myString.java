@@ -1,8 +1,5 @@
 package oop_lab6;
 
-import com.sun.xml.internal.ws.message.stream.StreamHeader12;
-
-import java.io.SyncFailedException;
 
 public class myString {
     public static void main (String[] args) {
