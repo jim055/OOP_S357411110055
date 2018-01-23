@@ -7,6 +7,17 @@ package oop_lab7;
 // 5.Country of origin
 
 public class SuperCar {
+    @Override
+    public String toString() {
+        return "SuperCar{" +
+                "Carbrand='" + Carbrand + '\'' +
+                ", Carcolor='" + Carcolor + '\'' +
+                ", Carenginesize='" + Carenginesize + '\'' +
+                ", Maxspeed='" + Maxspeed + '\'' +
+                ", Countryoforigin='" + Countryoforigin + '\'' +
+                '}';
+    }
+
     private String Carbrand;
     private String Carcolor;
     private String Carenginesize;
@@ -25,19 +36,9 @@ public SuperCar () {}
         this.Carenginesize = e;
         this.Maxspeed = m;
         this.Countryoforigin = c;
-
     }
 
-    @Override
-    public String toString() {
-        return "SuperCar{" +
-                "Carbrand='" + Carbrand + '\'' +
-                ", Carcolor='" + Carcolor + '\'' +
-                ", Carenginesize='" + Carenginesize + '\'' +
-                ", Maxspeed='" + Maxspeed + '\'' +
-                ", Countryoforigin='" + Countryoforigin + '\'' +
-                '}';
-    }
+
     //getter and setter methods
 
 
@@ -80,9 +81,4 @@ public SuperCar () {}
     public void setCountryoforigin(String countryoforigin) {
         Countryoforigin = countryoforigin;
     }
-
-
-
-
-
 }//class
