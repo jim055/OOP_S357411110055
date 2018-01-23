@@ -1,6 +1,8 @@
 package oop_lab5;
 
 
+import java.util.Scanner;
+
 public class myArray2D {
     private static final int Max = 10;
 
@@ -16,25 +18,30 @@ public class myArray2D {
     private static void summation (int[] num) {
         System.out.println("to array");
         int total = 0;
-        for (int i = 0; i < num.length; i++) {
+        for (int i = 0;i<num.length; i++)
+            total += num[i];
+
+            System.out.print("The summation of " + "value in array is: "+total);
+        System.out.print("The average value " + "in array is: "+total/Max);
 
 
+        }
 
-        }//j
-    }//i
-    return num;
-}//inputData
+                private static int[] inputData (int[] num){
+                    Scanner scanner = new Scanner(System.in);
+                    System.out.println("Pless enter data to array: ");
+                    for (int i= 0;i<num.length;i++){
+                            System.out.print("num[" + i + "]:");
+                            num[i] = scanner.nextInt();
 
 
-                private static void showData (int[][] num){
-                    System.out.println("Data in array");
-                    for (int i=0;i<num.length;i++){
-                        for (int j=0;j<num[i].length;j++){
-                            System.out.println("num["+i+"]["+j+"] :" +num[i][j]);
                         }
-                    }//i
+                   return num;
 
 
-    }//showdata
+
+    }
+
+
 }//class
 
