@@ -18,6 +18,7 @@ public class Student {
                 '}';
     }//toString
 
+    public static String getder = "Male";
     private String id;
     private String major;
     private String faculty;

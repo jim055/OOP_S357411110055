@@ -1,36 +1,23 @@
 package oop_lab5;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class myArray2D {
-    public static void main(String[] args) throws IOException {
-        //array 2D อาเรย์2มิติ
-        int[][] num = new int[2][3];
+    private static final int Max = 10;
 
-        num[0][0] = 100;
-        num[0][2] = 200;
-        try {
-            num = inputData(num);
-        } catch (IOException (num));
-        {
-            e.printStackTrace();
-
-        }
-        shovData(num);
+    public static void main(String[] args) {
+        int num[] = new int[Max];
+        num = inputData(num);
+        // showData (num);
 
 
     }//main
 
 
-    private static int[][] inputData(int[][] num) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter an integer: ");
+    private static void summation (int[] num) {
+        System.out.println("to array");
+        int total = 0;
         for (int i = 0; i < num.length; i++) {
-            for (int j = 0; j < num[i].length; j++)
-                System.out.println("num[" + i + "][" + j + "] :");
-            num[i][j] = Integer.parseInt(reader.readLine());
+
 
 
         }//j
