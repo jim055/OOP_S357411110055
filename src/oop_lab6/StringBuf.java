@@ -1,27 +1,22 @@
 package oop_lab6;
 
 public class StringBuf {
-        public static void main(String[] args) {
-            //Compare String
-            String str1 = "Hello";
-            String str2 = "Helloooo";
-            //type 1 (==)
-            if (str1==str2) System.out.println("true");
-            else System.out.println("false");
-            //type 2 (equals()method)
-            if (str1.equals(str2))System.out.println("true");
-            else System.out.println("false");
-            //type 3  (comareTo()method)
-            // -,+,0
-            if (str1.compareTo(str2)==0)
-                System.out.println("true");
-            else if(str1.compareTo(str2)>=1)
-                System.out.println("str2 more than str1");
-            else
-                System.out.println("str1 less than str2");
+    public static void main(String[] args) {
+        //StringBuffer
+        StringBuffer buffer=new StringBuffer();
+        buffer.append("Hello");
+        buffer.append(" Welcome");
+        buffer.append(" to");
+        buffer.append(" RMUTSV");
+        System.out.println(buffer);
+        System.out.println(buffer.length());
+        buffer.replace(0,5,"OOP");
+        System.out.println(buffer);
+        System.out.println(buffer.reverse());
+        buffer.delete(0,3);
+        System.out.println(buffer);
+    }//main
+}//class
 
 
-
-        }//main
-    }//class
 
