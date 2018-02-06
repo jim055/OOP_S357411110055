@@ -1,42 +1,29 @@
 package oop_lab9;
 
 public class Person {
-    public String personID;
-    public String name;
-    public Address Address;
-    public Job Job;
 
-    //constructor
+    private String personID;
+    private String name;
+    private Address address;
+    private Job job;
+    //con
 
-    public Person(String personID, String name, oop_lab9.Address address, oop_lab9.Job job) {
+
+    public Person(String personID, String name, Address address, Job job) {
         this.personID = personID;
         this.name = name;
-        Address = address;
-        Job = job;
+        this.address = address;
+        this.job = job;
     }
-
-
-    //toString
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "personID='" + personID + '\'' +
-                ", name='" + name + '\'' +
-                ", Address=" + Address +
-                ", Job=" + Job +
-                '}';
-    }
-
-
-    //getter and setter methods
-
+    //get and set
 
     public String getPersonID() {
         return personID;
     }
 
-
+    public void setPersonID(String personID) {
+        this.personID = personID;
+    }
 
     public String getName() {
         return name;
@@ -46,20 +33,30 @@ public class Person {
         this.name = name;
     }
 
-    public oop_lab9.Address getAddress() {
-        return Address;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setAddress(oop_lab9.Address address) {
-        Address = address;
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
-    public oop_lab9.Job getJob() {
-        return Job;
+    public Job getJob() {
+        return job;
     }
 
-    public void setJob(oop_lab9.Job job) {
-        Job = job;
+    public void setJob(Job job) {
+        this.job = job;
+    }
+    //toString
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "personID='" + personID + '\'' +
+                ", name='" + name + '\'' +
+                ", address=" + address +
+                ", job=" + job +
+                '}';
     }
 }//class
-
