@@ -5,11 +5,14 @@ public class myCarApp {
 
         //engine
 
-        Engine engine = new Engine(size: "1500 cc", type: "V-TEC V4");
+        Object size;
+        Engine engine = new Engine(size:Object type;
+        "1500 cc", type: "V-TEC V4");
 
 
-
-        Car car = new Car(brand: "Honda", color: "Black", engine);
+        String brand;
+        Car car = new Car(brand:Object color;
+        "Honda", color: "Black", engine);
 
         //car
 
